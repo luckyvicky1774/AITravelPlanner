@@ -22,5 +22,8 @@ export default defineConfig({
       'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',  // 关键
       'Cross-Origin-Embedder-Policy': 'unsafe-none',
     }
-  }
+  },
+  preview: {
+    allowedHosts: ['aitravelplanner-d8jd.onrender.com'],
+  },
 })
